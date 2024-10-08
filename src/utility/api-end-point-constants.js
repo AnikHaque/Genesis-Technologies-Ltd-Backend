@@ -8,6 +8,10 @@ const user = {
   createProfile: "/create-profile",
 };
 
+const banner = {
+  createBanner: "/create-banner",
+};
+
 const admin = {
   admin: "/registerAdmin",
   verifyAdmin: "/verifyOtpAdmin",
@@ -121,4 +125,5 @@ module.exports = {
   course,
   blog,
   blogcategory,
+  banner,
 };
