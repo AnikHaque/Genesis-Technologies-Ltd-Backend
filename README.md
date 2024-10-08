@@ -1,1 +1,1 @@
-# Genesis-Technology Admin Panel Server
+# Genesis-Technologies Ltd Server
