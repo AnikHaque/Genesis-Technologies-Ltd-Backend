@@ -28,6 +28,7 @@ const enrollmentRouter = require("./src/routes/enrollment.route");
 const fullstackenrollmentRouter = require("./src/routes/fullstack.route");
 const blogcategoryRouter = require("./src/routes/blogcategory.route");
 const reviewRouter = require("./src/routes/review.route");
+const bannerRouter = require("./src/routes/banner.route");
 
 const app = express();
 
@@ -51,6 +52,7 @@ app.use(bodyParser.json());
 dbConnection().catch((err) => console.log("Error occured::", err));
 
 app.use(userRouter);
+app.use(bannerRouter);
 app.use(adminRouter);
 app.use(brandRouter);
 app.use(categoryRouter);
