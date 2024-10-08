@@ -10,6 +10,7 @@ const user = {
 
 const banner = {
   createBanner: "/create-banner",
+  showBanners: "/show-banners",
 };
 
 const admin = {
