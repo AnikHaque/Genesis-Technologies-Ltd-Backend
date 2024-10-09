@@ -15,6 +15,13 @@ const banner = {
   deleteBanner: "/deleteBanner/:id",
 };
 
+const about = {
+  createAbout: "/create-about",
+  showAbouts: "/show-abouts",
+  updateabout: "/about/:id",
+  deleteAbout: "/deleteAbout/:id",
+};
+
 const course = {
   course: "/course",
   allCourses: "/courses",
@@ -129,4 +136,5 @@ module.exports = {
   blog,
   blogcategory,
   banner,
+  about,
 };
