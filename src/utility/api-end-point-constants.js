@@ -36,6 +36,20 @@ const client = {
   deleteClient: "/deleteClient/:id",
 };
 
+const project = {
+  createProject: "/create-project",
+  showProjects: "/show-projects",
+  updateproject: "/project/:id",
+  deleteProject: "/deleteProject/:id",
+};
+
+const solutioncategory = {
+  createSolutioncategory: "/create-solutioncategory",
+  showsolutioncategorys: "/show-solutioncategorys",
+  updatesolutioncategory: "/solutioncategory/:id",
+  deleteSolutioncategory: "/deleteSolutioncategory/:id",
+};
+
 const course = {
   course: "/course",
   allCourses: "/courses",
@@ -153,4 +167,6 @@ module.exports = {
   about,
   service,
   client,
+  project,
+  solutioncategory,
 };

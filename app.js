@@ -32,6 +32,8 @@ const bannerRouter = require("./src/routes/banner.route");
 const aboutRouter = require("./src/routes/about.route");
 const serviceRouter = require("./src/routes/service.route");
 const clientRouter = require("./src/routes/client.route");
+const projectRouter = require("./src/routes/project.route");
+const solutioncategoryRouter = require("./src/routes/solutioncategory.route");
 
 const app = express();
 
@@ -59,6 +61,8 @@ app.use(bannerRouter);
 app.use(aboutRouter);
 app.use(serviceRouter);
 app.use(clientRouter);
+app.use(projectRouter);
+app.use(solutioncategoryRouter);
 app.use(adminRouter);
 app.use(brandRouter);
 app.use(categoryRouter);
