@@ -11,6 +11,15 @@ const user = {
 const banner = {
   createBanner: "/create-banner",
   showBanners: "/show-banners",
+  updatebanner: "/banner/:id",
+  deleteBanner: "/deleteBanner/:id",
+};
+
+const course = {
+  course: "/course",
+  allCourses: "/courses",
+  updateCourse: "/courses/:id",
+  deleteCourse: "/courses/:id",
 };
 
 const admin = {
@@ -96,13 +105,6 @@ const product = {
   productFilterList: "/ProductListByFilter",
   review: "/CreateReview",
   showReview: "/ProductReviewList/:ProductID",
-};
-
-const course = {
-  course: "/course",
-  allCourses: "/courses",
-  updateCourse: "/courses/:id",
-  deleteCourse: "/courses/:id",
 };
 
 const flashdeals = {

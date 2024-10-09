@@ -7,5 +7,10 @@ const bannerEndPoints = apiEndPoints.banner;
 
 bannerRouter.post(bannerEndPoints.createBanner, bannerControllers.createBanner);
 bannerRouter.get(bannerEndPoints.showBanners, bannerControllers.getAllBanners);
+bannerRouter.put(bannerEndPoints.updatebanner, bannerControllers.updateBanner);
+bannerRouter.delete(
+  bannerEndPoints.deleteBanner,
+  bannerControllers.deleteBanner
+);
 
 module.exports = bannerRouter;
