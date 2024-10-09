@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const serviceModel = require("../models/service.model");
 const ObjectId = mongoose.Types.ObjectId;
-
 const createServiceIntoDb = async (payload) => {
   const resp = await serviceModel.create(payload);
   return resp;

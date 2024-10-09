@@ -22,6 +22,13 @@ const about = {
   deleteAbout: "/deleteAbout/:id",
 };
 
+const service = {
+  createService: "/create-service",
+  showServices: "/show-services",
+  updateservice: "/service/:id",
+  deleteService: "/deleteService/:id",
+};
+
 const course = {
   course: "/course",
   allCourses: "/courses",
@@ -137,4 +144,5 @@ module.exports = {
   blogcategory,
   banner,
   about,
+  service,
 };

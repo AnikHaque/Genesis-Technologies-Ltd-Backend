@@ -30,6 +30,7 @@ const blogcategoryRouter = require("./src/routes/blogcategory.route");
 const reviewRouter = require("./src/routes/review.route");
 const bannerRouter = require("./src/routes/banner.route");
 const aboutRouter = require("./src/routes/about.route");
+const serviceRouter = require("./src/routes/service.route");
 
 const app = express();
 
@@ -55,6 +56,7 @@ dbConnection().catch((err) => console.log("Error occured::", err));
 app.use(userRouter);
 app.use(bannerRouter);
 app.use(aboutRouter);
+app.use(serviceRouter);
 app.use(adminRouter);
 app.use(brandRouter);
 app.use(categoryRouter);
