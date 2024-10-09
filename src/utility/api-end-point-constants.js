@@ -29,6 +29,13 @@ const service = {
   deleteService: "/deleteService/:id",
 };
 
+const client = {
+  createClient: "/create-client",
+  showClients: "/show-clients",
+  updateclient: "/client/:id",
+  deleteClient: "/deleteClient/:id",
+};
+
 const course = {
   course: "/course",
   allCourses: "/courses",
@@ -145,4 +152,5 @@ module.exports = {
   banner,
   about,
   service,
+  client,
 };

@@ -31,6 +31,7 @@ const reviewRouter = require("./src/routes/review.route");
 const bannerRouter = require("./src/routes/banner.route");
 const aboutRouter = require("./src/routes/about.route");
 const serviceRouter = require("./src/routes/service.route");
+const clientRouter = require("./src/routes/client.route");
 
 const app = express();
 
@@ -57,6 +58,7 @@ app.use(userRouter);
 app.use(bannerRouter);
 app.use(aboutRouter);
 app.use(serviceRouter);
+app.use(clientRouter);
 app.use(adminRouter);
 app.use(brandRouter);
 app.use(categoryRouter);
